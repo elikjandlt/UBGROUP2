@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "business": "Business",
+    "sustainability": "Sustainability",
+    "career": "Career & Partnership",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Building the Future",
+    "subtitle": "A leading investment, construction, and infrastructure group company that has become a cornerstone of Mongolia's development.",
+    "ctaAbout": "About Us",
+    "ctaBusiness": "Business"
+  },
+  "stats": {
+    "years": "Years",
+    "projects": "Projects",
+    "employees": "Employees",
+    "sectors": "Business Sectors"
+  },
+  "sectors": {
+    "title": "Business Sectors",
+    "construction": "Construction",
+    "infrastructure": "Infrastructure",
+    "mining": "Mining",
+    "energy": "Energy",
+    "realEstate": "Real Estate",
+    "investment": "Investment"
+  },
+  "news": {
+    "title": "News & Updates",
+    "readMore": "Read More"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Partner in Mongolia's Development",
+    "vision": "Vision",
+    "mission": "Mission",
+    "values": "Values",
+    "history": "Our History",
+    "team": "Leadership Team",
+    "statsTitle": "Our Achievements"
+  },
+  "business": {
+    "title": "Business",
+    "subtitle": "A group company operating across multiple sectors",
+    "categories": "Product Categories",
+    "projects": "Projects",
+    "location": "Location"
+  },
+  "sustainability": {
+    "title": "Sustainability",
+    "subtitle": "We strive to create long-term positive impact on the economy, society, and environment.",
+    "principles": "Guiding Principles",
+    "projects": "Projects in Progress",
+    "impact": "Impact Achieved",
+    "reports": "Reports"
+  },
+  "career": {
+    "title": "Career & Partnership",
+    "subtitle": "Join our team",
+    "entryJoin": "Join Us",
+    "entryPartner": "Partner With Us",
+    "jobs": "Open Positions",
+    "apply": "Apply",
+    "tenders": "Open Tenders",
+    "submitTender": "Submit Tender"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us",
+    "info": "Contact Information",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Submit"
+    },
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "footer": {
+    "company": "Company",
+    "contact": "Contact",
+    "social": "Social Media",
+    "rights": "© 2024 Ulaanbaatar Group LLC. All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "submit": "Submit",
+    "send": "Send",
+    "loading": "Loading...",
+    "close": "Close"
+  }
+}

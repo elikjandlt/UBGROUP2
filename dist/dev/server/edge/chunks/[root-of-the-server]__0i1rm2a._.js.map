@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/output/ub-group/src/i18n/routing.ts"],"sourcesContent":["import { defineRouting } from \"next-intl/routing\";\n\nexport const routing = defineRouting({\n  locales: [\"mn\", \"en\"],\n  defaultLocale: \"mn\",\n  localePrefix: \"always\",\n});\n"],"names":["routing","locales","defaultLocale","localePrefix"],"mappings":";;;;AAAA;;AAEO,MAAMA,UAAU,IAAA,4eAAa,EAAC;IACnCC,SAAS;QAAC;QAAM;KAAK;IACrBC,eAAe;IACfC,cAAc;AAChB"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/output/ub-group/middleware.ts"],"sourcesContent":["import createMiddleware from \"next-intl/middleware\";\nimport { routing } from \"./src/i18n/routing\";\n\nexport default createMiddleware(routing);\n\nexport const config = {\n  matcher: [\"/\", \"/(mn|en)/:path*\"],\n};"],"names":["config","matcher"],"mappings":";;;;;;AAAA;AACA;;;uCAEe,IAAA,0bAAgB,EAAC,kKAAO;AAEhC,MAAMA,SAAS;IACpBC,SAAS;QAAC;QAAK;KAAkB;AACnC"}}]
+}
