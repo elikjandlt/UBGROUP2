@@ -53,3 +53,7 @@
  GET /en/news 200 in 11ms
  GET /mn/news 200 in 34ms
  GET /mn/about 200 in 49ms
+ ✓ Compiled in 3.4s (2854 modules)
+ GET /mn/about 200 in 219ms
+ GET /mn/about 200 in 19ms
+[?25h
