@@ -45,7 +45,7 @@ export default function Header() {
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           scrolled
             ? "glass-white shadow-md"
-            : "bg-transparent"
+            : "bg-white/90 backdrop-blur-sm shadow-sm"
         }`}
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -54,7 +54,7 @@ export default function Header() {
             <Link href={`/${locale}`} className="flex items-center gap-3 group">
               <div className="flex flex-col">
                 <span className={`text-xl font-bold tracking-[0.15em] transition-colors duration-300 ${
-                  scrolled ? "text-[#EC6707]" : "text-white"
+                  scrolled ? "text-[#EC6707]" : "text-[#000000]"
                 }`}
                 >
                   UB GROUP
@@ -76,8 +76,8 @@ export default function Header() {
                           ? "text-[#EC6707]"
                           : "text-[#334155] hover:text-[#EC6707]"
                         : isActive
-                        ? "text-white"
-                        : "text-white/70 hover:text-white"
+                        ? "text-[#EC6707]"
+                        : "text-[#334155] hover:text-[#EC6707]"
                     }`}
                   >
                     {item.label}
@@ -85,7 +85,7 @@ export default function Header() {
                       <motion.div
                         layoutId="activeNav"
                         className={`absolute inset-0 rounded-full -z-10 ${
-                          scrolled ? "bg-[#EC6707]/10" : "bg-white/15"
+                          scrolled ? "bg-[#EC6707]/10" : "bg-[#EC6707]/10"
                         }`}
                         transition={{ type: "spring", stiffness: 380, damping: 30 }}
                       />
@@ -104,7 +104,7 @@ export default function Header() {
                     ? "bg-[#EC6707] text-white"
                     : scrolled
                     ? "text-[#64748B] hover:text-[#000000]"
-                    : "text-white/60 hover:text-white"
+                    : "text-[#64748B] hover:text-[#000000]"
                 }`}
               >
                 MN
@@ -116,7 +116,7 @@ export default function Header() {
                     ? "bg-[#EC6707] text-white"
                     : scrolled
                     ? "text-[#64748B] hover:text-[#000000]"
-                    : "text-white/60 hover:text-white"
+                    : "text-[#64748B] hover:text-[#000000]"
                 }`}
               >
                 EN
@@ -126,7 +126,7 @@ export default function Header() {
             {/* Mobile menu button */}
             <button
               className={`lg:hidden p-2 transition-colors ${
-                scrolled ? "text-[#000000]" : "text-white"
+                scrolled ? "text-[#000000]" : "text-[#000000]"
               }`}
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
