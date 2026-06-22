@@ -11,8 +11,8 @@ const navItems = [
   { label: "Бидний тухай", href: "/about" },
   { label: "Бизнес", href: "/business" },
   { label: "Тогтвортой хөгжил", href: "/sustainability" },
-  { label: "Карьер ба хамтын ажиллагаа", href: "/career" },
   { label: "Мэдээ мэдээлэл", href: "/news" },
+  { label: "Карьер ба хамтын ажиллагаа", href: "/career" },
 ];
 
 export default function Header() {

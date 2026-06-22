@@ -135,6 +135,16 @@
     overflow: hidden;
   }
 
+  /* Hide scrollbar utility */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
   /* Marquee - horizontal auto-scroll */
   .marquee-track {
     display: flex;

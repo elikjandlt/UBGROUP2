@@ -87,28 +87,46 @@ export default function CareerPage() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <Reveal>
-              <div className="bg-[#E8EEF4] rounded-2xl p-4 text-center border border-[#E2E8F0] hover:shadow-lg transition-all duration-500">
-                <div className="w-16 h-16 rounded-full bg-[#F5F3ED] flex items-center justify-center mx-auto mb-6">
-                  <Briefcase size={28} className="text-[#EC6707]" strokeWidth={1.5} />
+              <div
+                className="relative rounded-2xl p-8 text-center border border-white/20 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 group"
+              >
+                <div
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                  style={{ backgroundImage: "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80')" }}
+                />
+                <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+                <div className="relative z-10">
+                  <div className="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center mx-auto mb-6 backdrop-blur-md">
+                    <Briefcase size={28} className="text-white" strokeWidth={1.5} />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-4">Бидэнтэй нэгдэх</h3>
+                  <p className="text-white/80 mb-6">Манай багт нэгдэж, Монгол Улсын хөгжилд хувь нэмрээ оруулаарай.</p>
+                  <a href="#jobs" className="inline-flex items-center gap-2 px-6 py-3 bg-[#EC6707] text-white rounded-lg hover:bg-[#B35405] transition-colors">
+                    Ажлын байр үзэх <ArrowRight size={16} />
+                  </a>
                 </div>
-                <h3 className="text-xl font-bold text-[#000000] mb-4">Бидэнтэй нэгдэх</h3>
-                <p className="text-[#64748B] mb-5">Манай багт нэгдэж, Монгол Улсын хөгжилд хувь нэмрээ оруулаарай.</p>
-                <a href="#jobs" className="inline-flex items-center gap-2 px-6 py-3 bg-[#EC6707] text-white rounded-lg hover:bg-[#B35405] transition-colors">
-                  Ажлын байр үзэх <ArrowRight size={16} />
-                </a>
               </div>
             </Reveal>
 
             <Reveal delay={0.1}>
-              <div className="bg-[#E8EEF4] rounded-2xl p-4 text-center border border-[#E2E8F0] hover:shadow-lg transition-all duration-500">
-                <div className="w-16 h-16 rounded-full bg-[#F5F3ED] flex items-center justify-center mx-auto mb-6">
-                  <Handshake size={28} className="text-[#EC6707]" strokeWidth={1.5} />
+              <div
+                className="relative rounded-2xl p-8 text-center border border-white/20 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 group"
+              >
+                <div
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                  style={{ backgroundImage: "url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80')" }}
+                />
+                <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+                <div className="relative z-10">
+                  <div className="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center mx-auto mb-6 backdrop-blur-md">
+                    <Handshake size={28} className="text-white" strokeWidth={1.5} />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-4">Хамтран ажиллах</h3>
+                  <p className="text-white/80 mb-6">Тендерт оролцож, хамтран ажиллах боломжоо үзээрэй.</p>
+                  <a href="#tenders" className="inline-flex items-center gap-2 px-6 py-3 bg-[#EC6707] text-white rounded-lg hover:bg-[#B35405] transition-colors">
+                    Тендер үзэх <ArrowRight size={16} />
+                  </a>
                 </div>
-                <h3 className="text-xl font-bold text-[#000000] mb-4">Хамтран ажиллах</h3>
-                <p className="text-[#64748B] mb-5">Тендерт оролцож, хамтран ажиллах боломжоо үзээрэй.</p>
-                <a href="#tenders" className="inline-flex items-center gap-2 px-6 py-3 bg-[#EC6707] text-white rounded-lg hover:bg-[#B35405] transition-colors">
-                  Тендер үзэх <ArrowRight size={16} />
-                </a>
               </div>
             </Reveal>
           </div>

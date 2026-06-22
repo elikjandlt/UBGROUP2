@@ -8,9 +8,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  turbopack: {
-    root: '.',
-  },
   env: {
     NEXT_PUBLIC_ERXES_ENDPOINT: "https://ubgroupnext.next.erxes.io/gateway/graphql",
     NEXT_PUBLIC_ERXES_APP_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRQb3J0YWxJZCI6IlFSeWpLUHRuMk5XanJKd3pjenJOXyIsImlhdCI6MTc3OTQxOTk1MH0.PgvPMc7HgZu_kqeu90vDGqt5cqN4N_EV0gSOMMfmW6E",

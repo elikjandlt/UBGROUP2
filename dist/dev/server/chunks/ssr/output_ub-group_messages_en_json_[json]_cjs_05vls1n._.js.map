@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///Users/newuser/Downloads/erxes-skills-main/content-plugin/headless/web/output/ub-group/messages/en.json.%5Bjson%5D.cjs/turbopack%3A/output/ub-group/messages/en.json"],"sourcesContent":["{\"Home\":{\"title\":\"To get started, edit the page.tsx file.\",\"description\":\"Looking for a starting point or more instructions? Head over to\",\"templates\":\"Templates\",\"or\":\"or the\",\"learning\":\"Learning\",\"center\":\"center\",\"deploy\":\"Deploy Now\",\"documentation\":\"Documentation\"}}"],"names":[],"mappings":""}}]
-}
