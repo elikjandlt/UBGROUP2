@@ -24,41 +24,41 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <div className="relative rounded-[40px] bg-white border border-black/5 px-4 sm:px-6 lg:px-8 pt-12 pb-10 lg:pt-14 lg:pb-12 overflow-hidden shadow-xl">
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[250px] bg-[#EC6707]/5 blur-[100px] rounded-full pointer-events-none" />
+            <div className="relative rounded-[40px] bg-[#D7722A] border border-[#D7722A]/20 px-4 sm:px-6 lg:px-8 pt-12 pb-10 lg:pt-14 lg:pb-12 overflow-hidden shadow-xl">
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[250px] bg-white/10 blur-[100px] rounded-full pointer-events-none" />
 
               <div className="relative z-10 flex justify-center mb-10">
                 <div className="text-center">
-                  <div className="text-[#EC6707] text-4xl sm:text-5xl lg:text-6xl font-bold tracking-[0.12em]">
+                  <div className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold tracking-[0.12em]">
                     UB GROUP
                   </div>
-                  <p className="text-black/50 text-base mt-2">
+                  <p className="text-white/70 text-base mt-2">
                     {isMn ? "Толгой компани" : "Head Company"}
                   </p>
                 </div>
               </div>
 
-              <div className="hidden lg:block absolute top-[104px] left-1/2 -translate-x-1/2 w-px h-10 bg-black/10" />
+              <div className="hidden lg:block absolute top-[104px] left-1/2 -translate-x-1/2 w-px h-10 bg-white/20" />
 
               <div className="relative z-10 flex flex-nowrap lg:grid lg:grid-cols-5 gap-4 lg:gap-5 overflow-x-auto lg:overflow-visible pt-12 -mx-2 px-2 lg:mx-0 lg:px-0">
-                <div className="hidden lg:block absolute top-0 left-0 right-0 h-px bg-black/10" />
+                <div className="hidden lg:block absolute top-0 left-0 right-0 h-px bg-white/20" />
                 {sectors.map((sector, index) => (
                   <div key={sector.id} className="relative min-w-[180px] flex-1">
-                    <div className="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 w-px h-12 bg-black/10" />
+                    <div className="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 w-px h-12 bg-white/20" />
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.5, delay: index * 0.05 }}
-                      className="relative z-10 w-full min-h-[260px] rounded-3xl border border-black/5 bg-[#F8F9FA] p-5 text-center hover:bg-[#FFF5ED] hover:border-[#EC6707]/20 transition-colors"
+                      className="relative z-10 w-full min-h-[260px] rounded-3xl border border-white/10 bg-white/10 p-5 text-center hover:bg-white/20 hover:border-white/20 transition-colors"
                     >
-                      <div className="text-[#EC6707] text-xs font-bold tracking-[0.2em] mb-3">
+                      <div className="text-white text-xs font-bold tracking-[0.2em] mb-3">
                         UB
                       </div>
-                      <div className="text-black text-base lg:text-lg font-bold tracking-wide mb-3">
+                      <div className="text-white text-base lg:text-lg font-bold tracking-wide mb-3">
                         {isMn ? sector.nameMn : sector.nameEn}
                       </div>
-                      <p className="text-black/60 text-sm leading-relaxed">
+                      <p className="text-white/80 text-sm leading-relaxed">
                         {isMn ? sector.summaryMn : sector.summaryEn}
                       </p>
                     </motion.div>
