@@ -16,7 +16,7 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
   return (
     <>
       {/* HERO / OVERVIEW */}
-      <section className="w-full py-12 lg:py-16 bg-[#FFEFE6]">
+      <section className="w-full py-12 lg:py-16 bg-[#F0F4F8]">
         <div className="mx-auto max-w-[1600px] px-4 sm:px-5 lg:px-6">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -24,7 +24,7 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <div className="relative rounded-[40px] bg-[#FFF8F3] border border-[#EC6707]/10 px-4 sm:px-6 lg:px-8 pt-12 pb-10 lg:pt-14 lg:pb-12 overflow-hidden shadow-xl">
+            <div className="relative rounded-[40px] bg-white border border-black/5 px-4 sm:px-6 lg:px-8 pt-12 pb-10 lg:pt-14 lg:pb-12 overflow-hidden shadow-xl">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[250px] bg-[#EC6707]/5 blur-[100px] rounded-full pointer-events-none" />
 
               <div className="relative z-10 flex justify-center mb-10">
@@ -38,19 +38,19 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
                 </div>
               </div>
 
-              <div className="hidden lg:block absolute top-[104px] left-1/2 -translate-x-1/2 w-px h-10 bg-[#EC6707]/15" />
+              <div className="hidden lg:block absolute top-[104px] left-1/2 -translate-x-1/2 w-px h-10 bg-black/10" />
 
               <div className="relative z-10 flex flex-nowrap lg:grid lg:grid-cols-5 gap-4 lg:gap-5 overflow-x-auto lg:overflow-visible pt-12 -mx-2 px-2 lg:mx-0 lg:px-0">
-                <div className="hidden lg:block absolute top-0 left-0 right-0 h-px bg-[#EC6707]/15" />
+                <div className="hidden lg:block absolute top-0 left-0 right-0 h-px bg-black/10" />
                 {sectors.map((sector, index) => (
                   <div key={sector.id} className="relative min-w-[180px] flex-1">
-                    <div className="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 w-px h-12 bg-[#EC6707]/15" />
+                    <div className="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 w-px h-12 bg-black/10" />
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.5, delay: index * 0.05 }}
-                      className="relative z-10 w-full min-h-[260px] rounded-3xl border border-[#EC6707]/10 bg-[#FFF5ED] p-5 text-center hover:bg-[#FFE8DB] hover:border-[#EC6707]/20 transition-colors"
+                      className="relative z-10 w-full min-h-[260px] rounded-3xl border border-black/5 bg-[#F8F9FA] p-5 text-center hover:bg-[#FFF5ED] hover:border-[#EC6707]/20 transition-colors"
                     >
                       <div className="text-[#EC6707] text-xs font-bold tracking-[0.2em] mb-3">
                         UB
@@ -71,7 +71,7 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
       </section>
 
       {/* BUSINESS AREAS */}
-      <section className="w-full py-20 lg:py-28 bg-[#FFF8F3]">
+      <section className="w-full py-20 lg:py-28 bg-[#F0F4F8]">
         <div className="mx-auto max-w-[1600px] px-4 sm:px-5 lg:px-6">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
