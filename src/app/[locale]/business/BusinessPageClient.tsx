@@ -16,8 +16,8 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
   return (
     <>
       {/* HERO / OVERVIEW */}
-      <section className="w-full py-12 lg:py-16 bg-[#F0F4F8]">
-        <div className="mx-auto max-w-[1600px] px-4 sm:px-5 lg:px-6">
+      <section className="w-full bg-[#F0F4F8]">
+        <div className="mt-[72px] pt-[0.5cm] mx-[0.5cm] mb-[0.5cm]">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
