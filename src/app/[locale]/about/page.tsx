@@ -632,7 +632,7 @@ function HistoryTimeline({ locale }: { locale: string }) {
   };
 
   return (
-    <section className="w-full py-20 lg:py-28 bg-[#F0F4F8] overflow-hidden">
+      <section className="w-full pt-4 pb-20 lg:pb-28 bg-[#F0F4F8] overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 mb-10 lg:mb-14">
         <Reveal className="text-center">
           <span className="text-[11px] font-semibold tracking-[0.25em] text-[#EC6707] uppercase mb-4 block">
@@ -974,7 +974,7 @@ export default function AboutPage() {
       </section>
 
       {/* STATISTICS */}
-      <section className="w-full py-24 bg-[#F0F4F8]">
+      <section className="w-full py-16 bg-[#F0F4F8]">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <Reveal className="text-center mb-6">
             <span className="text-[11px] font-semibold tracking-[0.2em] text-[#EC6707] uppercase mb-4 block">
