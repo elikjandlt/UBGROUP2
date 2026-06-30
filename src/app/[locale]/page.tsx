@@ -128,8 +128,8 @@ function HeroSlider({ locale }: { locale: string }) {
 
   return (
     <section className="w-full bg-white">
-      <div className="pt-24 sm:pt-28 lg:pt-32 pb-6 sm:pb-8">
-        <div className="relative mx-[0.5cm] aspect-[16/9] sm:aspect-[21/9] md:aspect-[2.4/1] max-h-[calc(100vh-120px)] overflow-hidden rounded-3xl sm:rounded-[40px] bg-[#000000] shadow-xl">
+      <div className="mx-[0.5cm] my-[0.5cm] sm:my-[0.5cm] lg:my-[0.5cm]">
+        <div className="relative aspect-[16/9] sm:aspect-[21/9] md:aspect-[2.4/1] max-h-[calc(100vh-1cm)] overflow-hidden rounded-3xl sm:rounded-[40px] bg-[#000000] shadow-xl">
           <AnimatePresence mode="wait">
             <motion.div
               key={slide.id}
