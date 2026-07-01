@@ -190,7 +190,7 @@ export default function NewsPage() {
           >
             <span className="text-[11px] font-semibold tracking-[0.25em] text-[#EC6707] uppercase mb-6 block">Мэдээ мэдээлэл</span>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-5 tracking-tight">
-              Мэдээ
+              Мэдээ мэдээлэл
             </h1>
           </motion.div>
         </div>
