@@ -188,9 +188,9 @@ export default function NewsPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
-            <span className="text-[11px] font-semibold tracking-[0.25em] text-[#EC6707] uppercase mb-6 block">Мэдээ мэдээлэл</span>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-5 tracking-tight">
-              Мэдээ мэдээлэл
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5 tracking-tight">
+              <span className="text-[#EC6707]">Мэдээ</span>{" "}
+              <span className="text-white">мэдээлэл</span>
             </h1>
           </motion.div>
         </div>
