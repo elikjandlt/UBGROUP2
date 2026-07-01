@@ -1015,7 +1015,7 @@ export default function AboutPage() {
       <TeamSlider locale={locale} />
 
       {/* CTA + SLOGAN */}
-      <section className="relative w-full py-20 lg:py-28 overflow-hidden bg-[#000000]">
+      <section className="relative w-full py-16 lg:py-20 overflow-hidden bg-[#000000]">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-10"
           style={{ backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80')" }}
