@@ -85,10 +85,10 @@ export default function CareerPage() {
       {/* ENTRY CARDS */}
       <section className="w-full py-24 bg-[#F0F4F8]">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <Reveal>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-stretch">
+            <Reveal className="h-full">
               <div
-                className="relative rounded-2xl p-8 text-center border border-white/20 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 group h-[380px]"
+                className="relative rounded-2xl p-8 text-center border border-white/20 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 group h-full flex flex-col justify-center"
               >
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
@@ -108,9 +108,9 @@ export default function CareerPage() {
               </div>
             </Reveal>
 
-            <Reveal delay={0.1}>
+            <Reveal delay={0.1} className="h-full">
               <div
-                className="relative rounded-2xl p-8 text-center border border-white/20 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 group h-[380px]"
+                className="relative rounded-2xl p-8 text-center border border-white/20 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 group h-full flex flex-col justify-center"
               >
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
