@@ -189,7 +189,7 @@ export default function NewsPage() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5 tracking-tight">
-              <span className="text-[#EC6707]">Мэдээ</span>{" "}
+              <span className="text-[#EC6707] text-2xl sm:text-3xl lg:text-4xl">Мэдээ</span>{" "}
               <span className="text-white">мэдээлэл</span>
             </h1>
           </motion.div>
