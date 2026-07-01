@@ -744,19 +744,19 @@ function TeamSlider({ locale }: { locale: string }) {
     <section className="w-full py-20 lg:py-28 bg-[#F0F4F8]">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <Reveal className="text-center mb-14 lg:mb-20">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">
+          <div className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">
             {isMn ? (
               <>
-                <span className="text-[#EC6707] text-2xl sm:text-3xl lg:text-4xl">Удирдлагын</span>{" "}
-                <span className="text-[#000000]">баг</span>
+                <span className="text-[#EC6707] text-2xl sm:text-3xl lg:text-4xl block">Удирдлагын</span>
+                <span className="text-[#000000] text-xl sm:text-2xl lg:text-3xl block">баг</span>
               </>
             ) : (
               <>
-                <span className="text-[#EC6707] text-2xl sm:text-3xl lg:text-4xl">Leadership</span>{" "}
-                <span className="text-[#000000]">Team</span>
+                <span className="text-[#EC6707] text-2xl sm:text-3xl lg:text-4xl block">Leadership</span>
+                <span className="text-[#000000] text-xl sm:text-2xl lg:text-3xl block">Team</span>
               </>
             )}
-          </h2>
+          </div>
         </Reveal>
 
         <div className="space-y-16 lg:space-y-24">
