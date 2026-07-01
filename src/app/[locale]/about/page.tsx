@@ -656,12 +656,12 @@ function HistoryTimeline({ locale }: { locale: string }) {
             <ChevronLeft size={22} />
           </button>
 
-          <div className="flex items-center justify-center gap-6 sm:gap-8 lg:gap-10 overflow-x-auto scrollbar-hide px-2 flex-1">
+          <div className="flex items-center justify-center gap-3 sm:gap-4 lg:gap-5 overflow-x-auto scrollbar-hide px-2 flex-1">
             {years.map((year, index) => (
               <button
                 key={year}
                 onClick={() => setActiveIndex(index)}
-                className={`text-base sm:text-lg lg:text-xl font-semibold whitespace-nowrap transition-colors duration-300 ${
+                className={`text-sm sm:text-base lg:text-lg font-semibold whitespace-nowrap transition-colors duration-300 ${
                   index === activeIndex ? "text-[#EC6707]" : "text-[#64748B] hover:text-[#000000]"
                 }`}
               >
