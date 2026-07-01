@@ -53,7 +53,7 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.5, delay: index * 0.05 }}
-                      className="relative z-10 w-full min-h-[260px] rounded-3xl border border-white/10 bg-white/10 p-5 text-center hover:bg-white/20 hover:border-white/20 transition-colors"
+                      className="relative z-10 w-full min-h-[200px] rounded-3xl border border-white/10 bg-white/10 p-5 text-center hover:bg-white/20 hover:border-white/20 transition-colors flex flex-col justify-center"
                     >
                       <div className="text-white text-xs font-bold tracking-[0.2em] mb-3">
                         UB
@@ -71,14 +71,14 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
       </section>
 
       {/* BUSINESS AREAS */}
-      <section className="w-full py-20 lg:py-28 bg-[#F0F4F8]">
+      <section className="w-full py-14 lg:py-20 bg-[#F0F4F8]">
         <div className="mx-auto max-w-[1600px] px-4 sm:px-5 lg:px-6">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="text-center mb-14 lg:mb-20"
+            className="text-center mb-10 lg:mb-14"
           >
             <span className="text-xs font-semibold tracking-[0.25em] text-[#EC6707] uppercase mb-4 block">
               {isMn ? "Салбарууд" : "Sectors"}
@@ -99,7 +99,7 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
               >
                 <Link
                   href={`/${locale}/business/${sector.id}`}
-                  className="group relative block w-full h-[460px] sm:h-[540px] lg:h-[620px] rounded-[40px] overflow-hidden text-left shadow-lg"
+                  className="group relative block w-full h-[320px] sm:h-[380px] lg:h-[420px] rounded-[40px] overflow-hidden text-left shadow-lg"
                 >
                   <div className="relative w-full h-full">
                     <div
@@ -107,17 +107,17 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
                       style={{ backgroundImage: `url('${sector.image}')` }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/10" />
-                    <div className="absolute bottom-0 left-0 right-0 p-8 sm:p-10 lg:p-12">
-                      <div className="text-[#EC6707] text-xs sm:text-sm font-bold tracking-[0.2em] mb-3">
+                    <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8 lg:p-10">
+                      <div className="text-[#EC6707] text-xs sm:text-sm font-bold tracking-[0.2em] mb-2">
                         UB
                       </div>
-                      <h3 className="text-white text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
+                      <h3 className="text-white text-2xl sm:text-3xl lg:text-4xl font-bold mb-3">
                         {isMn ? sector.nameMn : sector.nameEn}
                       </h3>
-                      <p className="text-white/80 text-sm sm:text-base leading-relaxed mb-8 line-clamp-3 max-w-2xl">
+                      <p className="text-white/80 text-sm sm:text-base leading-relaxed mb-5 line-clamp-3 max-w-2xl">
                         {isMn ? sector.cardDescMn : sector.cardDescEn}
                       </p>
-                      <span className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#EC6707] text-white text-sm sm:text-base font-semibold rounded-full hover:bg-[#B35405] transition-colors">
+                      <span className="inline-flex items-center gap-2 px-6 py-3 bg-[#EC6707] text-white text-sm font-semibold rounded-full hover:bg-[#B35405] transition-colors">
                         {isMn ? "Дэлгэрэнгүй" : "Details"}
                         <ArrowRight size={18} />
                       </span>
