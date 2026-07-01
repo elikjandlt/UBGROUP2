@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Globe } from "lucide-react";
 
@@ -55,8 +56,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           {/* Logo */}
           <div className="flex flex-col items-start">
-            <Link href={`/${locale}`} className="text-2xl font-bold tracking-[0.12em] text-white mb-4">
-              UB GROUP
+            <Link href={`/${locale}`} className="mb-4">
+              <Image
+                src="/ub-logo-white.png"
+                alt="UB Group"
+                width={160}
+                height={48}
+                className="h-12 w-auto object-contain"
+                priority
+              />
             </Link>
             <p className="text-sm text-white/70 leading-relaxed">
               {isMn
