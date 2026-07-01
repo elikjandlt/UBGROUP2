@@ -895,7 +895,7 @@ export default function AboutPage() {
           style={{ backgroundImage: "url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1920&q=80')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#000000]/70 via-[#000000]/40 to-[#000000]" />
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -909,7 +909,7 @@ export default function AboutPage() {
               <br />
               <span className="text-[#EC6707]">{isMn ? "2006 оноос" : "Future since 2006"}</span>
             </h1>
-            <p className="text-lg text-white/70 max-w-xl leading-relaxed">
+            <p className="text-lg text-white/70 max-w-xl leading-relaxed mx-auto">
               {isMn
                 ? "Барилга, дэд бүтэц, хөрөнгө оруулалтын салбарт 18 жилийн туршлага."
                 : "18 years of experience in construction, infrastructure, and investment."}
