@@ -29,14 +29,13 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[250px] bg-white/10 blur-[100px] rounded-full pointer-events-none" />
 
               <div className="relative z-10 flex justify-center mb-10">
-                <div className="text-center flex items-center gap-4">
-                  <div className="w-16 sm:w-20 lg:w-24 h-16 sm:h-20 lg:h-24 border-2 border-white rounded-sm flex items-center justify-center shrink-0" />
+                <div className="text-center">
                   <Image
-                    src="/ub1-logo.png"
+                    src="/ub-logo-white.png"
                     alt="UB Group"
                     width={220}
                     height={64}
-                    className="h-14 sm:h-16 lg:h-20 w-auto object-contain brightness-0 invert"
+                    className="h-14 sm:h-16 lg:h-20 w-auto object-contain mx-auto"
                     priority
                   />
                 </div>
@@ -57,9 +56,13 @@ export default function BusinessPageClient({ locale, sectors }: BusinessPageClie
                       className="relative z-10 w-full min-h-[260px] rounded-3xl border border-white/10 bg-white/10 p-5 text-center hover:bg-white/20 hover:border-white/20 transition-colors"
                     >
                       <div className="flex justify-center mb-3">
-                        <div className="w-8 h-8 border border-white/70 rounded-sm flex items-center justify-center">
-                          <span className="text-white text-[10px] font-bold">UB</span>
-                        </div>
+                        <Image
+                          src="/ub-logo-white.png"
+                          alt="UB"
+                          width={48}
+                          height={16}
+                          className="h-4 w-auto object-contain opacity-90"
+                        />
                       </div>
                       <div className="text-white text-base lg:text-lg font-bold tracking-wide mb-3">
                         {isMn ? sector.nameMn : sector.nameEn}
