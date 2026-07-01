@@ -88,7 +88,7 @@ export default function CareerPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <Reveal>
               <div
-                className="relative rounded-2xl p-8 text-center border border-white/20 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 group"
+                className="relative rounded-2xl p-8 text-center border border-white/20 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 group h-[380px]"
               >
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
@@ -110,7 +110,7 @@ export default function CareerPage() {
 
             <Reveal delay={0.1}>
               <div
-                className="relative rounded-2xl p-8 text-center border border-white/20 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 group"
+                className="relative rounded-2xl p-8 text-center border border-white/20 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 group h-[380px]"
               >
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
