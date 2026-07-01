@@ -744,9 +744,6 @@ function TeamSlider({ locale }: { locale: string }) {
     <section className="w-full py-20 lg:py-28 bg-[#F0F4F8]">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <Reveal className="text-center mb-14 lg:mb-20">
-          <span className="text-[11px] font-semibold tracking-[0.25em] text-[#EC6707] uppercase mb-4 block">
-            {isMn ? "Удирдлага" : "Leadership"}
-          </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#000000] tracking-tight">
             {isMn ? "Удирдлагын баг" : "Leadership Team"}
           </h2>
