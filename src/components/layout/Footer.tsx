@@ -56,13 +56,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           {/* Logo */}
           <div className="flex flex-col items-start">
-            <Link href={`/${locale}`} className="mb-4">
+            <Link href={`/${locale}`} className="flex items-center gap-3 mb-4 group">
+              <div className="w-12 h-12 border-2 border-white rounded-sm flex items-center justify-center shrink-0" />
               <Image
-                src="/ub-logo-white.png"
+                src="/ub1-logo.png"
                 alt="UB Group"
-                width={160}
-                height={48}
-                className="h-12 w-auto object-contain"
+                width={140}
+                height={40}
+                className="h-10 w-auto object-contain brightness-0 invert"
                 priority
               />
             </Link>
